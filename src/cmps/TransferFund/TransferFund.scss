@@ -1,0 +1,32 @@
+form {
+padding: 40px 15px 20px 0;
+    background-color: #30475e;
+    input {
+        font-size: 1rem;
+        border-radius: 5px;
+        outline: none;
+        background-color: #222831;
+        border: none;
+        padding: 20px 15px;
+        width: 40vw;
+        margin: 2px 0;
+        height: 30px;
+    }
+    button {
+        background-color: #c1a57b;
+        padding: 12px 20px;
+        border-radius: 5px;
+        outline: none;
+        border-style: none;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 750px) {
+    form {
+        width: 40vw;
+        margin: 0 auto;
+        padding: 40px 50px 20px 50px;
+
+    }
+}

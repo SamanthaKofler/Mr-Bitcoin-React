@@ -1,0 +1,25 @@
+.preview {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #30475e;
+    img {
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    span {
+        font-size: 0.9rem;
+    }
+    .name {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    div {
+        margin-left: 10px;
+    }
+    transition: .5s;
+    &:hover {
+        box-shadow: 0 8px 10px 1px rgba(236, 236, 236, 0.1), 0 3px 14px 2px rgba(236, 236, 236, 0.1), 0 5px 5px -3px rgba(236, 236, 236, 0.1);
+    }
+}

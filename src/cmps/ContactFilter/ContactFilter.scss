@@ -1,0 +1,27 @@
+.contact-filter {
+    background-color: #222831;
+    padding: 5px;
+    input {
+        font-size: 1.2rem;
+        border-radius: 5px;
+        outline: none;
+        background-color: #222831;
+        margin-bottom: 0;
+        border: none;
+        margin-left: 10px;
+
+    }
+    @media (min-width: 750px) {
+        padding: 10px;
+        form {
+            margin: 10px auto;
+            width: 40vw;
+            text-align: center;
+        }
+        input {
+            background-color: #ececec;
+            padding: 5px;
+            color: #222831;
+        }
+    }
+}

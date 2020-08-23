@@ -1,0 +1,50 @@
+.contact-details {
+    margin: 0 auto;
+    background-color: #30475e;
+    padding: 25px;
+    gap: 10px;
+    img {
+        width: 150px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .name {
+        color: #c1a57b;
+        font-size: 2rem;
+    }
+    .email {
+        font-size: 0.9rem;
+    }
+    .phone {
+        font-size: 1.1rem;
+    }
+    @media (min-width: 750px) {
+        width: 40vw;
+    }
+}
+
+.details-header {
+    height: 50px;
+    a {
+        background-color: #ececec;
+        color: #222831;
+        border-radius: 5px;
+        padding: 9px;
+        transition: .3s;
+        &:active {
+                box-shadow: 0 5px #222831;
+                transform: translateY(2px);
+                background-color: #cccccc;
+        }
+    }
+}
+
+.your-moves {
+    margin: 10px;
+    i {
+        margin-right: 5px;
+    }
+    @media (min-width: 950px) {
+        margin: 20px 0 10px 0;
+    }
+}

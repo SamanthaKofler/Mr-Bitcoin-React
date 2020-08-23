@@ -1,0 +1,29 @@
+header {
+    background-color: #30475e;
+    .header-content {
+        padding: 5px;
+        padding-right: 15px;
+        @media (min-width: 750px) {
+            padding-right: 0;
+        }
+        height: 60px;
+        color: white;
+        .logo a {
+            font-family: Ranga;
+            font-size: 1.6rem;
+            i {
+                font-size: 1.1rem;
+            }
+        }
+        nav {
+            gap: 20px;
+            i {
+                font-size: 1.4rem;
+            }
+         
+        }
+    }
+}
+.active {
+    color: #c1a57b;
+}

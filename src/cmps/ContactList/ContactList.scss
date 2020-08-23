@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0;
+    li {
+        width: 100vw;
+    }
+    .add-in-list {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 750px) {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        li {
+            width: 100%;
+        }
+        .add-in-list {
+            visibility: visible;
+            transition: 0.5s;
+
+            i {
+                padding: 15px;
+                background-color: #c1a57b;
+                color: #ececec;
+                font-size: 2rem;
+                border-radius: 50%;
+                &:active {
+                    box-shadow: 0 5px #222831;
+                    transform: translateY(2px);
+                }
+            }
+        }
+    }
+}

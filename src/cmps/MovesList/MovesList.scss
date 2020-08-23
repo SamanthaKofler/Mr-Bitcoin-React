@@ -1,0 +1,27 @@
+.moves-list {
+    display: block;
+    background-color: #30475e;
+    color: #ececec;
+    padding: 5px 50px;
+    li {
+        margin: 20px;
+        width: 100%;
+        p {
+            padding: 3px;
+            i {
+                margin: 0 3px;
+            }
+            span {
+                font-weight: bold;
+            }
+            i,
+            span {
+                color: #c1a57b;
+            } 
+        }
+        .at {
+            font-size: 0.8rem;
+            color: grey;
+        }
+    }
+}

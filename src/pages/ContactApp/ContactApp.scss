@@ -1,0 +1,17 @@
+.add {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    visibility: visible;
+    i {
+        padding: 15px;
+        background-color: #c1a57b;
+        color: #ececec;
+        font-size: 2rem;
+        border-radius: 50%;
+    }
+
+    @media (min-width: 750px) {
+        visibility: hidden;
+    }
+}

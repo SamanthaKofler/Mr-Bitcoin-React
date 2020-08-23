@@ -1,0 +1,78 @@
+.contact-edit {
+    margin: 0 auto;
+    background-color: #30475e;
+    padding: 25px;
+    gap: 10px;
+    h3 {
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    img {
+        width: 150px;
+        background-color: white;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    input {
+        font-size: 1rem;
+        border-radius: 5px;
+        outline: none;
+        background-color: #222831;
+        border: none;
+        padding: 20px 15px;
+        color: #ececec;
+        width: 80vw;
+        margin: 2px 0;
+        height: 30px;
+    }
+
+    .save-btn {
+        background-color: #c1a57b;
+        margin-top: 10px;
+    }
+}
+.save-btn,
+.delete-btn {
+    padding: 10px 20px;
+    color: #ececec;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+}
+
+.edit-header {
+    height: 50px;
+    margin: 0 10px;
+    padding: 5px;
+    button {
+        background-color: #ececec;
+        color: #222831;
+        border-radius: 5px;
+        padding: 9px;
+        transition: .3s;
+        &:active {
+                box-shadow: 0 5px #222831;
+                transform: translateY(2px);
+        }
+    }
+            .delete-btn {
+                background-color: rgb(151, 44, 76);
+                color: #ececec;
+            }
+}
+
+@media (min-width: 750px) {
+    .contact-edit
+     {
+        width: 40vw;
+        input {
+            width: 100%;
+        }
+        form {
+            width: 100%;
+        }
+    }
+    .edit-header {
+        margin: 0 auto;
+    }
+}
