@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Mr-Bitcoin-React/static/css/main.0e2ec9e2.chunk.css",
-    "main.js": "/Mr-Bitcoin-React/static/js/main.de4a8648.chunk.js",
-    "main.js.map": "/Mr-Bitcoin-React/static/js/main.de4a8648.chunk.js.map",
+    "main.css": "/Mr-Bitcoin-React/static/css/main.1da617c0.chunk.css",
+    "main.js": "/Mr-Bitcoin-React/static/js/main.a58a2f02.chunk.js",
+    "main.js.map": "/Mr-Bitcoin-React/static/js/main.a58a2f02.chunk.js.map",
     "runtime-main.js": "/Mr-Bitcoin-React/static/js/runtime-main.ef20b4d8.js",
     "runtime-main.js.map": "/Mr-Bitcoin-React/static/js/runtime-main.ef20b4d8.js.map",
-    "static/js/2.e1779a6e.chunk.js": "/Mr-Bitcoin-React/static/js/2.e1779a6e.chunk.js",
-    "static/js/2.e1779a6e.chunk.js.map": "/Mr-Bitcoin-React/static/js/2.e1779a6e.chunk.js.map",
+    "static/js/2.4909e959.chunk.js": "/Mr-Bitcoin-React/static/js/2.4909e959.chunk.js",
+    "static/js/2.4909e959.chunk.js.map": "/Mr-Bitcoin-React/static/js/2.4909e959.chunk.js.map",
     "index.html": "/Mr-Bitcoin-React/index.html",
-    "precache-manifest.c80518c384eab3df00bd3de52abe97ac.js": "/Mr-Bitcoin-React/precache-manifest.c80518c384eab3df00bd3de52abe97ac.js",
+    "precache-manifest.b9af8b40d1cc42eac7ff0f660bf59752.js": "/Mr-Bitcoin-React/precache-manifest.b9af8b40d1cc42eac7ff0f660bf59752.js",
     "service-worker.js": "/Mr-Bitcoin-React/service-worker.js",
-    "static/css/main.0e2ec9e2.chunk.css.map": "/Mr-Bitcoin-React/static/css/main.0e2ec9e2.chunk.css.map",
-    "static/js/2.e1779a6e.chunk.js.LICENSE.txt": "/Mr-Bitcoin-React/static/js/2.e1779a6e.chunk.js.LICENSE.txt",
+    "static/css/main.1da617c0.chunk.css.map": "/Mr-Bitcoin-React/static/css/main.1da617c0.chunk.css.map",
+    "static/js/2.4909e959.chunk.js.LICENSE.txt": "/Mr-Bitcoin-React/static/js/2.4909e959.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/Mr-Bitcoin-React/static/media/Ranga-Regular.754c8ffb.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.ef20b4d8.js",
-    "static/js/2.e1779a6e.chunk.js",
-    "static/css/main.0e2ec9e2.chunk.css",
-    "static/js/main.de4a8648.chunk.js"
+    "static/js/2.4909e959.chunk.js",
+    "static/css/main.1da617c0.chunk.css",
+    "static/js/main.a58a2f02.chunk.js"
   ]
 }
